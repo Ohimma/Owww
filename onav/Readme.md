@@ -36,7 +36,7 @@ $ yarn create vite vue --template vue
 $ cd <project-name>
 $ yarn 
 $ yarn dev
-$ yarn add xxxx
+$ yarn add xxxx   #缺少插件就安装，比如vite
 
 -------------------
 tips：用npm安装了elemntui一直报错，改为yarn安装
@@ -44,7 +44,7 @@ Uncaught SyntaxError: The requested module '/node_modules/.vite/vue.js?v=a53c6d6
 ```
     
 
-#### 2. 启动
+#### 2. 迁移启动
 ```
 $ git clone https://github.com/xxxxx
 $ git remote add github git@github.com:xxxxx
@@ -65,3 +65,8 @@ $ open http://127.0.0.1:8082
 ![](./img/login.png)
 ![](./img/login02.png)
 ![](./img/nav01.png)
+
+
+### 四：摘抄还可以的源码
+仿联想首页：<https://github.com/yinguangyao/Lenovo>     
+学院官网：<https://github.com/LuckFairy/schoolWebsite>     
