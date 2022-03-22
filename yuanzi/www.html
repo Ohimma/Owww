@@ -1,0 +1,763 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>量子科技</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="keywords" content="量子,互联网,定制,开发,TMS,POS,支付,物流">
+
+    <meta name="description" content="量子,互联网,定制,开发,TMS,POS,支付,物流">
+
+    <meta name="author" content="">
+
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.4.6.0.css">
+
+    <link rel="stylesheet" href="css/bicolor.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <link rel="stylesheet" type="text/css" href="fonts/iconfont.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/public.css">
+
+    <!-- <link rel="stylesheet" type="text/css" href="fonts/demo.css"> -->
+
+    <!--[if lt IE 9]>
+
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+        <![endif]-->
+
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+
+
+    <style>
+
+
+
+    </style>
+
+</head>
+
+<body class="start">
+
+    <div id="awd-site-wrap" class="bg bg-home">
+
+        <div id="bg">
+
+            <div id="overlay">
+
+                <div class="awd-site-bg bg-home"></div>
+
+                <div class="awd-site-bg bg-subscribe"></div>
+
+                <div class="awd-site-bg bg-about"></div>
+
+                <div class="awd-site-bg bg-contact"></div>
+
+                <div class="awd-site-bg bg-services"></div>
+
+            </div>
+
+            <canvas id="awd-site-canvas" width="1920" height="832"></canvas>
+
+        </div>
+
+        <header id="awd-site-header">
+
+            <!--<div id="awd-site-logo" class="animated fadeInDown visible" data-animation="fadeInDown" data-animation-delay="500">
+
+                <h1>
+
+                    <i class="icon iconfont icon-icon-test"></i>
+
+                </h1>
+
+            </div>-->
+
+            <div id="awd-site-logo" class="animated fadeInDown visible" data-animation="fadeInDown" data-animation-delay="300">
+
+                <!-- <div style="font-size:x-large;font-weight:bold;">&nbsp;量子科技</div>
+
+                <div style="font-size:x-small;font-weight:600;margin-top:-5px;">Quantum Technology</div> -->
+
+                <img class="logo-black" src="img/logo_black.png" alt="">
+
+                <img class="logo-white" src="img/logo_white.png" alt="">
+
+            </div>
+
+            <button class="menu-toggle animated fadeInDown visible" data-animation="fadeInDown" data-animation-delay="300" data-role="toggle">
+
+                <span></span>
+
+                <span></span>
+
+                <span></span>
+
+            </button>
+
+            <nav id="awd-site-nav" class="navigation animated fadeInDown visible" data-animation="fadeInDown" data-animation-delay="300">
+
+                <div class="nav-container">
+
+                    <ul>
+
+                        <li><a href="#" data-slide="home" class="active">首页</a></li>
+
+                        <li><a href="#" data-slide="subscribe">服务</a></li>
+
+                        <li><a href="#" data-slide="about">关于</a></li>
+
+                        <li><a href="#" data-slide="services">愿景</a></li>
+
+                        <li><a href="#" data-slide="contact">联系我们</a></li>
+
+                    </ul>
+
+                </div>
+
+            </nav>
+
+        </header>
+
+
+
+        <main id="awd-site-main">
+
+            <section id="awd-site-content">
+
+                <div class="sections-block ps-container" data-ps-id="547c7539-32d8-728f-3955-6c9921abbc16">
+
+                    <div class="slides">
+
+                        <div class="slides-wrap">
+
+                            <div class="slide-item active" data-slide-id="home">
+
+                                <div class="container-fluid">
+
+                                    <div class="row">
+
+                                        <div class="col-md-12">
+
+                                            <div class="slide-content">
+
+                                                <div class="row">
+
+                                                    <div class="col-lg-6 col-md-6 svm">
+
+                                                        <div class="section-info text-left">
+
+                                                            <div class="countdown">
+
+                                                                <div id="clock" class="animated fadeIn visible" data-animation="fadeIn" data-animation-delay="60"></div>
+
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="col-lg-5 col-lg-offset-1 col-md-6 svm">
+
+                                                        <div class="section-info text-right">
+
+                                                            <h3 class="section-title text-default animated fadeIn visible" data-animation="fadeIn" data-animation-delay="50" style="text-align:right;line-height: 1.5;letter-spacing: 0;">
+
+                                                                <span>记得，请联系我！</span><br>
+
+                                                                <span>不要以为有钱就可得到一切，</span><br>
+
+                                                                <span>就像李嘉诚，他都90岁了，</span><br>
+
+                                                                <span>至今都没有我的微信！</span><br>
+
+                                                                <span>但，你有！要珍惜！</span>
+
+                                                            </h3>
+
+                                                            <p class="animated fadeIn visible" data-animation="fadeIn" data-animation-delay="55" style="margin-bottom: 12px">
+
+                                                                <span style="font-size:x-large;font-weight:600;">Hello World</span><br>
+
+                                                                <span style="font-size:small;font-weight:400;">您出现，即会成就非常棒的事业</span>
+
+                                                            </p>
+
+                                                            <a href="#" class="btn go-slide animated fadeIn visible" data-animation="fadeIn" data-animation-delay="10" data-slide="about">更多资料</a>
+
+                                                            <a href="#" class="btn btn-inverse go-slide animated fadeIn visible" data-animation="fadeIn" data-animation-delay="10" data-slide="contact">联系我们!</a>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="slide-item" data-slide-id="subscribe">
+
+                                <div class="container-fluid">
+
+                                    <div class="row">
+
+                                        <div class="col-md-12">
+
+                                            <div class="slide-content">
+
+                                                <div class="row">
+
+                                                    <div class="col-lg-5 col-lg-offset-2 col-md-6 col-md-offset-1 col-md-push-5 svm">
+
+                                                        <div class="section-info text-right">
+
+                                                            <h2 class="section-title text-default animated fadeIn visible" data-animation="fadeIn" data-animation-delay="60">
+
+                                                                我们的服务
+
+                                                            </h2>
+
+                                                            <p class="animated fadeIn visible" data-animation="fadeIn" data-animation-delay="100">
+
+                                                                / 支付清算系统<br>
+
+                                                                / 车联网应用系统<br>
+
+                                                                / 物流运输管理系统<br>
+
+                                                                / 企业协同信息化系统<br>
+
+                                                                / 互联网应用产品定制开发<br>
+
+                                                            </p>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="col-md-5 col-md-pull-7 svm">
+
+                                                        <div class="section-info text-left">
+
+                                                            <p>
+
+                                                                <strong>
+
+                                                                    联系我们
+
+                                                                </strong>
+
+                                                                <br />启动您的爆炸开挂人生
+
+                                                            </p>
+
+                                                            <div class="row">
+
+                                                                <div class="col-md-12 col-md-offset-0 col-sm-8 col-sm-offset-2">
+
+                                                                    <form id="subscribe-form" class="subscribe-form" method="post" novalidate="true">
+
+                                                                        <!--<input type="email" id="subscribe-email" name="EMAIL" placeholder="请留下你的邮箱地址">
+
+                                                                        <button type="submit" id="subscribe-submit" class="btn btn-inverse">
+
+                                                                            <span>订阅</span> <i class="fa fa-envelope"></i>
+
+                                                                        </button>-->
+
+                                                                        <div class="form-notice subscribe-notice"></div>
+
+                                                                    </form>
+
+                                                                </div>
+
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="slide-item" data-slide-id="about">
+
+                                <div class="container-fluid">
+
+                                    <div class="row">
+
+                                        <div class="col-md-12">
+
+                                            <div class="slide-content">
+
+                                                <div class="row">
+
+                                                    <div class="col-lg-5 col-lg-offset-2 col-md-6 col-md-offset-1 col-md-push-5 svm">
+
+                                                        <div class="section-info text-right">
+
+                                                            <h2 class="section-title text-default animated fadeIn visible" data-animation="fadeIn" data-animation-delay="60">关于我们</h2>
+
+                                                            <p style="margin-bottom:-10px;font-size:22px;">过去；告一段落！<br />未来；敬请期待！</p>
+
+                                                            <br />
+
+                                                            <p class="animated fadeIn visible" data-animation="fadeIn" data-animation-delay="100" style="text-align: justify;">
+
+                                                                致力于为客户企业互联网化产品定制开发、信息化协同系统开发、银行与第三方支付清算系统（POSP系统）、车联网辅助驾驶（OBD）系统应用、 BITMS（商业智能物流运输管理）系统等相关应用级系统开发的高科技企业。
+
+                                                            </p>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="col-md-5 col-md-pull-7 svm">
+
+                                                        <div class="section-info text-left">
+
+                                                            <div class="features-list">
+
+                                                                <div class="featured-item animated fadeIn visible" data-animation="fadeIn" data-animation-delay="150" style="margin-bottom:30px;">
+
+                                                                    <div class="featured-text">
+
+                                                                        <h3><i class="fa fa-rocket"></i> 安全高效</h3>
+
+                                                                        <p style="text-align: justify;">
+
+                                                                            N年技术积累与创新，树立在车联网、物流、支付金融领域的技术标杆地位。业务平台及系统软件自主研发，不但得到客户高度认可，并且通过国家知识产权认定。
+
+                                                                        </p>
+
+                                                                    </div>
+
+                                                                </div>
+
+                                                                <div class="featured-item">
+
+                                                                    <div class="featured-item animated fadeIn visible" data-animation="fadeIn" data-animation-delay="150">
+
+                                                                        <div class="featured-text">
+
+                                                                            <h3><i class="fa fa-thumbs-up"></i> 高性能、高并发</h3>
+
+                                                                            <p style="text-align: justify;">
+
+                                                                                在企业应用级互联网产品有N年的技术研发和运营维护经验、掌握高性能、高并发、大数据处理技术。
+
+                                                                            </p>
+
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                </div>
+
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="slide-item" data-slide-id="services">
+
+                                <div class="container-fluid">
+
+                                    <div class="row">
+
+                                        <div class="col-md-12">
+
+                                            <div class="slide-content">
+
+                                                <div class="row">
+
+                                                    <div class="col-lg-5 col-lg-offset-2 col-md-6 col-md-offset-1 col-md-push-5 svm">
+
+                                                        <div class="section-info text-right">
+
+                                                            <h2 class="section-title text-default animated fadeIn visible" data-animation="fadeIn" style="margin-bottom:10px;">
+
+                                                                企业愿景
+
+                                                            </h2>
+
+                                                            <p class="animated fadeIn visible" data-animation="fadeIn" data-animation-delay="100" style="margin-bottom:40px;">
+
+                                                                让代码成为一种伟大的社会力量；<br />
+
+                                                                创享人类未来！
+
+                                                            </p>
+
+                                                            <h2 class="section-title text-default animated fadeIn visible" data-animation="fadeIn" style="margin-bottom:10px;">
+
+                                                                企业目标
+
+                                                            </h2>
+
+                                                            <p class="animated fadeIn visible" data-animation="fadeIn" data-animation-delay="100" style="font-size:large; ">
+
+                                                                以客户为中心，快速响应客户需求<br />
+
+                                                                可持续为客户创造价值而成就客户<br />
+
+                                                                有效服务，是我们价值评价的标尺<br />
+
+                                                                成就客户就是成就我们自己
+
+                                                            </p>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="col-md-5 col-md-pull-7 svm">
+
+                                                        <div class="section-info text-left">
+
+                                                            <h2 class="section-title text-default animated fadeIn visible" data-animation="fadeIn" style="padding-top:30px;">
+
+                                                                企业价值观
+
+                                                            </h2>
+
+                                                            <div class="service animated fadeIn visible" data-animation="fadeIn" data-animation-delay="150">
+
+                                                                <h3>
+
+                                                                    积极进取
+
+                                                                </h3>
+
+                                                                <p style="font-size:large;text-align: justify;">我们信奉互惠共赢的原则，在我们内部、合作伙伴及客户之间建立卓有成效的合作伙伴关系。</p>
+
+                                                            </div>
+
+                                                            <br />
+
+                                                            <div class="service animated fadeIn visible" data-animation="fadeIn" data-animation-delay="150">
+
+                                                                <h3>
+
+                                                                    肩负责任
+
+                                                                </h3>
+
+                                                                <p style="font-size:large;text-align: justify;">
+
+                                                                    我们承诺对我们的员工、对我们经营所服务的客户的安全与发展负责。我们的目标是不发生Bug，不造成利益损失，不破坏商业道德。
+
+                                                                </p>
+
+                                                            </div>
+
+                                                            <br />
+
+                                                            <div class="service animated fadeIn visible" data-animation="fadeIn" data-animation-delay="150">
+
+                                                                <h3>
+
+                                                                    勇于创新
+
+                                                                </h3>
+
+                                                                <p style="font-size:large;text-align: justify;">
+
+                                                                    凭借我们的技术，我们要立足今日，放眼未来，不断打破常规，取得突破。
+
+                                                                </p>
+
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="slide-item" data-slide-id="contact">
+
+                                <div class="container-fluid">
+
+                                    <div class="row">
+
+                                        <div class="col-md-12">
+
+                                            <div class="slide-content">
+
+                                                <div class="row">
+
+                                                    <div class="col-lg-5 col-lg-offset-1 col-md-6 col-md-push-6 svm">
+
+                                                        <div class="section-info text-right">
+
+                                                            <h2 class="section-title text-default animated fadeIn visible" data-animation="fadeIn">联系我们</h2>
+
+                                                            <div class="contact-info">
+
+                                                                <p class="contact-item"><i class="fa fa-phone"></i> 相见恨晚：13430348381</p>
+
+                                                                <p class="contact-item"><i class="fa fa-phone"></i> 殊途同归：13416309247</p>
+
+                                                                <p class="contact-item"><i class="fa fa-phone"></i> 好事多磨：13450489234</p>
+
+                                                                <p class="contact-item">
+
+                                                                    <i class="fa fa-envelope"></i> anylook@foxmail.com
+
+                                                                </p>
+
+                                                                <p class="contact-item">
+
+                                                                    <i class="fa fa-map-marker"></i> 广东·广州·琶洲
+
+                                                                </p>
+
+                                                            </div>
+
+                                                            <p class="animated fadeIn visible focus-word" data-animation="fadeIn" data-animation-delay="100">
+
+                                                                <span>编程能力创新  让产品更简单</span><br />
+
+                                                                <span> 优质便捷的互联网技术服务商</span>
+
+                                                            </p>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="col-lg-6 col-md-6 col-md-pull-6 svm">
+
+                                                        <div class="section-info text-left">
+
+                                                            <div class="contact-form">
+
+                                                                <div class="row">
+
+                                                                    <div class="col-lg-4 col-md-6 col-md-12" data-animation-delay="200">
+
+                                                                        <input type="text" id="txtName" placeholder="姓名">
+
+                                                                    </div>
+
+                                                                    <div class="col-lg-4 col-md-6 col-md-12" data-animation-delay="200">
+
+                                                                        <input type="text" id="txtPhone" placeholder="手机">
+
+                                                                    </div>
+
+                                                                    <div class="col-md-12" id="txtMsg" data-animation-delay="150">
+
+                                                                        <textarea placeholder="聊两句吧..." rows="4"></textarea>
+
+                                                                        <button class="btn btn-block" onclick="javascript:sub();">
+
+                                                                            <span>共同致富</span>
+
+                                                                            <i class="fa fa-send"></i>
+
+                                                                        </button>
+
+                                                                    </div>
+
+                                                                </div>
+
+                                                                <div class="contact-notice"></div>
+
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 3px;"><div class="ps-scrollbar-x" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; right: 3px;"><div class="ps-scrollbar-y" style="top: 0px; height: 0px;"></div></div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer id="awd-site-footer" style="display: block">
+
+            <div style="display: block" class="copyright animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="300">
+
+                <p>© 2018-2021 <a href="https://beian.miit.gov.cn" target="_blank">粤ICP备18099187号</a></p>
+
+            </div>
+
+            <!--友情链接区域 BEGIN-->
+
+            <!--<nav class="social-icons animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="500">
+
+                <ul>
+
+                    <li title="兼容火狐"><a href="#"><i class="fa fa-firefox"></i></a></li>
+
+                    <li title="兼容Opera"><a href="#"><i class="fa fa-opera"></i></a></li>
+
+                    <li title="兼容IE"><a href="#"><i class="fa fa-internet-explorer"></i></a></li>
+
+                    <li title="兼容谷歌"><a href="#"><i class="fa fa-chrome"></i></a></li>
+
+                    <li title="圆象街茶叶"><a target="_blank" href="#"><i class="fa fa-leaf"></i></a></li>
+
+                    <li title="QQ"><a href="#"><i class="fa fa-qq"></i></a></li>
+
+                    <li title="WeChat"><a href="#"><i class="fa fa-weixin"></i></a></li>
+
+                    <li title="微博"><a href="#"><i class="fa fa-weibo"></i></a></li>
+
+                    <li title="开始"><a href="#"><i class="fa fa-windows"></i></a></li>
+
+                </ul>
+
+            </nav>-->
+
+            <!--友情链接区域 END-->
+
+        </footer>
+
+    </div>
+
+    <script src="js/jQuery-2.1.4.min.js"></script>
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/vendor.js"></script>
+
+    <script type="text/javascript" src="js/options.js"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script>
+
+
+
+        var sub = function () {
+
+
+
+            var name = $("#txtName").val();
+
+            var phone = $("#txtPhone").val();
+
+            var msg = $("#txtMsg").val();
+
+
+
+            $.ajax({
+
+                async: false,
+
+                type: "POST",
+
+                url: "http://demo.zyb56.cn:8081/ashx/liangzigo/msg.ashx",
+
+                dataType: "json",
+
+                data: {
+
+                    "name": name,
+
+                    "phone": phone,
+
+                    "msg": msg
+
+                },
+
+                success: function (json) {
+
+
+
+                },
+
+                error: function (XMLHttpRequest, textStatus, errorThrown) { layer.msg(textStatus); }
+
+            }
+
+    </script>
+
+
+
+</body>
+
+</html>
+
