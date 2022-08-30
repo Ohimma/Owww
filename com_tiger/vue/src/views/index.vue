@@ -6,7 +6,7 @@
           <!-- logo -->
           <div class="logo">
             <a href="#" class="logo-expanded">
-              <img src="../assets/images/logo@2x.png" width="100%" alt="" />
+              <img src="../assets/images/tiger_logo_white.png" width="100%" alt="" />
             </a>
             <a href="#" class="logo-collapsed">
               <img
@@ -46,7 +46,7 @@
             </ul>
           </li>
           <!-- 关于本站 -->
-          <li class="submit-tag">
+          <!-- <li class="submit-tag">
             <router-link to="/about">
               <i class="linecons-heart"></i>
               <span class="tooltip-blue">关于本站</span>
@@ -54,7 +54,7 @@
                 >♥︎</span
               >
             </router-link>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
@@ -65,7 +65,7 @@
           <li class="hidden-sm hidden-xs">
             <a href="#" data-toggle="sidebar"><i class="fa-bars"></i></a>
           </li>
-          <li class="dropdown hover-line language-switcher">
+          <!-- <li class="dropdown hover-line language-switcher">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img :src="lang.flag" /> {{ lang.name }}
             </a>
@@ -80,15 +80,15 @@
                 </a>
               </li>
             </ul>
-          </li>
+          </li> -->
         </ul>
-        <ul class="user-info-menu right-links list-inline list-unstyled">
+        <!-- <ul class="user-info-menu right-links list-inline list-unstyled">
           <li class="hidden-sm hidden-xs">
             <a href="https://github.com/Anjaxs/WebStack-vue" target="_blank">
               <i class="fa-github"></i> GitHub
             </a>
           </li>
-        </ul>
+        </ul> -->
       </nav>
 
       <div v-for="(item, idx) in items" :key="idx">
@@ -96,7 +96,7 @@
           <WebItem :item="item" :transName="transName" />
         </div>
         <div v-else v-for="(subItem, idx) in item.children" :key="idx">
-          <WebItem :item="subItem" :transName="transName" />
+          <WebItem :title="item.name" :item="subItem" :transName="transName" />
         </div>
       </div>
 

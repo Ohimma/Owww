@@ -917,13 +917,13 @@ body {
 .sidebar-menu {
     display: table-cell;
     position: relative;
-    width: 280px;
+    width: 250px;
     background: #2c2e2f;
     z-index: 1
 }
 
 .sidebar-menu .logo-env {
-    padding: 19px 45px;
+    padding: 20px 50px 20px 35px;
     border-bottom: 1px solid #313437
 }
 
@@ -960,7 +960,8 @@ body {
     padding-right: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
-    list-style: none
+    list-style: none;
+    font-size: 16px;
 }
 
 @media screen and (max-width:768px) {
@@ -1164,7 +1165,8 @@ body {
 }
 
 .sidebar-menu .main-menu ul li a {
-    padding-left: 35px
+    padding-left: 38px;
+    font-size: 14px;
 }
 
 .sidebar-menu .main-menu ul li ul li a {
@@ -5025,7 +5027,6 @@ body.chat-open #chat {
     background: #d5080f;
     border-color: #d5080f
 }
-
 
 .cbr-replaced.cbr-red.cbr-checked.cbr-radio .cbr-state span {
     background: #d5080f

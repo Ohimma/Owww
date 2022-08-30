@@ -9,13 +9,13 @@
 ```
 
 
-#### 一：创建项目
-```
-```
-    
 
 #### 二：迁移启动
 ```
+cd vue
+yarn install
+yarn serve
+yarn run build
 ```
 
 

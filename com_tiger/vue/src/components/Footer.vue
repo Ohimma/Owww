@@ -3,9 +3,10 @@
     <div class="footer-inner">
       <!-- 版权信息 -->
       <div class="footer-text">
-        &copy; 2017-2019
-        <a href="#"><strong>WebStack</strong></a> 
-        design by <a href="http://viggoz.com" target="_blank"><strong>Viggo</strong></a>
+        &copy; 2023-09
+        <a href="#"><strong>Tiger</strong></a> 
+        design by 
+        <a href="#" target="_blank"><strong>SRE</strong></a>
       </div>
       
       <div class="go-up">
