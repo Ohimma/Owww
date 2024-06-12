@@ -1,111 +1,423 @@
 [{
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "linecons-star",
+        "name": "公司",
+        "en_name": "Computer",
+        "icon": "linecons-globe",
         "is_hot": true,
         "web": [{
+                "url": "https://tigertech.feishu.cn/wiki/wikcnhB2aEc0qyhDLznekn9YS1f",
+                "logo": "assets/images/logoss/logo_feishu.png",
+                "title": "飞书文档",
+                "desc": "一站式企业沟通与协作平台,整合即时沟通、日历、视频会议、电话会议、云文档(在线文档编辑)、云盘、工作台、考勤打卡等功能于一体"
+            },
+            {
                 "url": "https://www.itigerup.com/status",
                 "logo": "assets/images/logoss/logo_tiger.png",
                 "title": "Itradeup",
                 "desc": "公司自研网络检测工具"
             },
             {
-                "url": "https://n9e-v5-cn.tigerbrokers.net/",
-                "logo": "assets/images/logoss/logo_n9e.png",
-                "title": "N9e",
-                "desc": "通用监控 (境内)",
-                "doc": "https://tigertech.feishu.cn/wiki/wikcnB8WHAOOOeKBR13s4VRc0Bc"
-            },
-            {
-                "url": "https://graylog-hk.tigerfintech.com/",
-                "logo": "assets/images/logoss/logo_graylog.png",
-                "title": "Graylog",
-                "desc": "日志监控 (香港)"
-            },
-            {
-                "url": "https://apm.tigerbrokers.net",
-                "logo": "assets/images/logoss/logo_elk.png",
-                "title": "Kibana",
-                "desc": "链路监控apm  (香港)",
-                "doc": "https://tigertech.feishu.cn/wiki/wikcnU6i6EVXhZJAJa847D80OVe"
-            },
-            {
-                "url": "https://grafana.tigerfintech.com/",
-                "logo": "assets/images/logoss/grafana_icon.svg",
-                "title": "Grafana",
-                "desc": "监控展示系统 (境内+境外)",
-                "doc": "https://tigertech.feishu.cn/wiki/wikcnVpZaldWeH0USi0ytRGesBb"
+                "url": "https://security.itigerup.com/chpass/",
+                "logo": "assets/images/logoss/logo_pass.png",
+                "title": "Ldap密码修改",
+                "desc": "公司统一账户Ldap，密码到期修改链接"
             }
         ]
     },
     {
-        "name": "内部网站",
+        "name": "客服",
+        "en_name": "People",
+        "icon": "linecons-user",
+        "web": [{
+                "url": "https://gcs-hk.tigerfintech.com/direct/login",
+                "logo": "assets/images/logoss/logo_kefu.png",
+                "title": "GCS-hk",
+                "desc": "客服GCS系统"
+            },
+            {
+                "url": "https://gcs-sg.tigerfintech.com/direct/login",
+                "logo": "assets/images/logoss/logo_kefu.png",
+                "title": "GCS-sg",
+                "desc": "客服GCS系统"
+            }
+        ]
+    },
+    {
+        "name": "运营",
+        "en_name": "Operating",
+        "icon": "linecons-money",
+        "web": [{
+                "url": "http://bos.itradeup.com/",
+                "logo": "assets/images/logoss/logo_ucloud.png",
+                "title": "Bos-us",
+                "desc": "BOS系统"
+            },
+            {
+                "url": "http://bos.tigerbrokers.com.sg/au",
+                "logo": "assets/images/logoss/logo_ucloud.png",
+                "title": "Bos-au",
+                "desc": "BOS系统"
+            },
+            {
+                "url": "http://bos.tigerbrokers.com.sg/hk",
+                "logo": "assets/images/logoss/logo_ucloud.png",
+                "title": "Bos-hk",
+                "desc": "BOS系统"
+            },
+            {
+                "url": "http://bos.tigerbrokers.com.sg/",
+                "logo": "assets/images/logoss/logo_ucloud.png",
+                "title": "Bos-sg",
+                "desc": "BOS系统"
+            },
+            {
+                "url": "http://bos.itiger-nz.com/",
+                "logo": "assets/images/logoss/logo_ucloud.png",
+                "title": "Bos-tfnz",
+                "desc": "BOS系统"
+            },
+            {
+                "url": "http://bos.itiger.com/",
+                "logo": "assets/images/logoss/logo_ucloud.png",
+                "title": "Bos-tbnz",
+                "desc": "BOS系统"
+            }
+        ]
+    },
+    {
+        "name": "产品",
+        "en_name": "Product",
+        "icon": "linecons-calendar",
+        "web": [{
+                "url": "https://ones.tigerbrokers.net",
+                "logo": "assets/images/logoss/logo_ones.png",
+                "title": "Ones",
+                "owner": "王朝阳",
+                "desc": "项目管理和任务协同工具"
+            },
+            {
+                "url": "https://app.asana.com/",
+                "logo": "assets/images/logoss/logo_asana.png",
+                "title": "Asana (old)",
+                "owner": "王朝阳",
+                "desc": "项目管理和任务协同工具"
+            },
+            {
+                "url": "https://jira.tigerbrokers.net/",
+                "logo": "assets/images/logoss/logo_jira.png",
+                "title": "Jira (old)",
+                "owner": "李国盈",
+                "desc": "项目管理和任务协同工具"
+            },
+            {
+                "url": "http://da.tigerfintech.com/",
+                "logo": "assets/images/logoss/logo_shence.png",
+                "title": "神策",
+                "owner": "王朝阳",
+                "desc": "企业数字化平台，用于业务数据分析"
+            },
+            {
+                "url": "https://bidp.tigerfintech.com/",
+                "logo": "assets/images/logoss/logo_guanyuan.png",
+                "title": "观远数据",
+                "desc": "新一代智能数据分析与决策(AI+BI)平台"
+            },
+            {
+                "url": "https://nbi.tigerfintech.com/",
+                "logo": "assets/images/logoss/logo_superset.png",
+                "title": "Superset",
+                "desc": "轻量级开源可视化BI工具"
+            },
+            {
+                "url": "https://cms.laohu8.com/",
+                "logo": "assets/images/logoss/logo_tiger.png",
+                "title": "CMS",
+                "desc": "内容管理系统"
+            }
+        ]
+    },
+
+    {
+        "name": "研发",
+        "en_name": "RD",
+        "icon": "linecons-pencil",
+        "web": [{
+                "url": "https://deploy.tigerfintech.com/",
+                "logo": "assets/images/logoss/logo_deploy.png",
+                "title": "Ideploy-cn",
+                "owner": "李东耀",
+                "desc": "发布平台：用于代码发布"
+            },
+            {
+                "url": "https://deploy-us.tigerfintech.com/",
+                "logo": "assets/images/logoss/logo_deploy.png",
+                "title": "Ideploy-us",
+                "owner": "李东耀",
+                "desc": "发布平台：用于代码发布"
+            },
+            {
+                "url": "https://config.tigerfintech.com/",
+                "logo": "assets/images/logoss/logo_apollo.png",
+                "title": "Apollo-cn",
+                "owner": "李东耀",
+                "desc": "配置中心：用于服务注册与发现"
+            },
+            {
+                "url": "https://config.itradeup.com/",
+                "logo": "assets/images/logoss/logo_apollo.png",
+                "title": "Apollo-us",
+                "owner": "李东耀",
+                "desc": "配置中心：用于服务注册与发现"
+            },
+            {
+                "url": "https://puck1.tigerbrokers.net/",
+                "logo": "assets/images/logoss/logo_nginx.png",
+                "title": "Nginx",
+                "owner": "熊星",
+                "desc": "各机房测试和线上 Nginx 配置文件查看"
+            },
+            {
+                "url": "https://merico.tigerbrokers.net",
+                "logo": "assets/images/logoss/logo_simayi.png",
+                "title": "思码逸",
+                "desc": "研发团队 代码分析的效能平台 "
+            }
+        ]
+    },
+    {
+        "name": "测试",
+        "en_name": "QA",
+        "icon": "linecons-eye",
+        "web": [{
+                "url": "http://sonar.tigerfintech.com/",
+                "logo": "assets/images/logoss/logo_sonar.png",
+                "title": "Sonar",
+                "desc": "代码质量管理平台"
+            },
+            {
+                "url": "https://mobile.tigerbrokers.net/android/index_dev.html",
+                "logo": "assets/images/logoss/logo_ucloud.png",
+                "title": "测试包-Android",
+                "desc": ""
+            },
+            {
+                "url": "https://static-test.tigerfintech.com/ios/index.html",
+                "logo": "assets/images/logoss/logo_ucloud.png",
+                "title": "测试包-IOS",
+                "desc": ""
+            }
+        ]
+    },
+    {
+        "name": "数据库",
+        "en_name": "dba",
+        "icon": "linecons-database",
+        "web": [{
+                "url": "https://yearning.tigerbrokers.net/",
+                "logo": "assets/images/logoss/logo_yeying.png",
+                "title": "夜莺-cn",
+                "owner": "孙龙",
+                "desc": "DBA平台: 轻量级MySQL SQL语句审核平台"
+            },
+            {
+                "url": "https://yearning-us.tigerbrokers.net/",
+                "logo": "assets/images/logoss/logo_yeying.png",
+                "title": "夜莺-us",
+                "owner": "孙龙",
+                "desc": "DBA平台: 轻量级MySQL SQL语句审核平台"
+            },
+            {
+                "url": "https://dba.tigerbrokers.net",
+                "logo": "assets/images/logoss/logo_ucloud.png",
+                "title": "DBA",
+                "owner": "孙龙",
+                "desc": "新DBA平台"
+            }
+        ]
+    },
+    {
+        "name": "中间件",
+        "en_name": "Middle",
+        "icon": "linecons-cog",
+        "web": [{
+            "url": "https://kafka.tigerbrokers.net/",
+            "logo": "assets/images/logoss/logo_kafka.png",
+            "title": "Kafka",
+            "owner": "张赛",
+            "doc": "https://tigertech.feishu.cn/wiki/wikcn8khgI7jqNgrqjw6J4VPMte",
+            "desc": "kafka管理平台"
+        }]
+    },
+    {
+        "name": "监控",
+        "en_name": "Monitor",
+        "icon": "linecons-videocam",
+        "web": [{
+                "url": "https://grafana.tigerfintech.com/",
+                "logo": "assets/images/logoss/grafana_icon.svg",
+                "title": "Grafana",
+                "desc": "监控展示系统",
+                "owner": "滕训涛",
+                "doc": "https://tigertech.feishu.cn/wiki/wikcnVpZaldWeH0USi0ytRGesBb"
+            },
+            {
+                "url": "https://apm.tigerbrokers.net",
+                "logo": "assets/images/logoss/logo_elk.png",
+                "title": "Kibana-hk",
+                "desc": "链路监控apm",
+                "owner": "赵奇",
+                "doc": "https://tigertech.feishu.cn/wiki/wikcnU6i6EVXhZJAJa847D80OVe"
+            },
+            {
+                "url": "https://n9e-v5-cn.tigerbrokers.net/",
+                "logo": "assets/images/logoss/logo_n9e.png",
+                "title": "N9e-cn",
+                "desc": "通用监控系统",
+                "owner": "滕训涛",
+                "doc": "https://tigertech.feishu.cn/wiki/wikcnB8WHAOOOeKBR13s4VRc0Bc"
+            },
+            {
+                "url": "https://n9e-v5-us.tigerbrokers.net/",
+                "logo": "assets/images/logoss/logo_n9e.png",
+                "title": "N9e-us",
+                "desc": "通用监控系统",
+                "owner": "滕训涛",
+                "doc": "https://tigertech.feishu.cn/wiki/wikcnB8WHAOOOeKBR13s4VRc0Bc"
+            },
+            {
+                "url": "https://graylog-bj.tigerfintech.com/",
+                "logo": "assets/images/logoss/logo_graylog.png",
+                "title": "Graylog-bj",
+                "owner": "赵奇",
+                "desc": "日志监控系统"
+            },
+            {
+                "url": "https://graylog-hk.tigerfintech.com/",
+                "logo": "assets/images/logoss/logo_graylog.png",
+                "title": "Graylog-hk",
+                "owner": "赵奇",
+                "desc": "日志监控系统"
+            },
+            {
+                "url": "https://graylog-us.tigerfintech.com/",
+                "logo": "assets/images/logoss/logo_graylog.png",
+                "title": "Graylog-us",
+                "owner": "赵奇",
+                "desc": "日志监控系统"
+            },
+            {
+                "url": "https://team.tigerfintech.com/developer/static/index.html#/data-quality",
+                "logo": "assets/images/logoss/logo_ucloud.png",
+                "title": "WatchDog",
+                "desc": "...."
+            },
+            {
+                "url": "https://app.bugsnag.com/",
+                "logo": "assets/images/logoss/logo_bugsnag.png",
+                "title": "Bugsnag",
+                "desc": "前端监控"
+            }
+
+        ]
+    },
+    {
+        "name": "仓库",
+        "en_name": "Storage",
+        "icon": "linecons-database",
+        "web": [{
+                "url": "https://git.tigerbrokers.net/",
+                "logo": "assets/images/logoss/logo_gitlab.png",
+                "title": "Gitlab",
+                "owner": "滕训涛",
+                "desc": "公司代码仓库"
+            },
+            {
+                "url": "http://nexus.tigerbrokers.net/",
+                "logo": "assets/images/logoss/logo_nexus.png",
+                "title": "Nexus",
+                "owner": "滕训涛",
+                "desc": "公司制品仓库, java、python ..... ",
+                "doc": "https://tigertech.feishu.cn/wiki/wikcn4WbjE24boqnb9hy7SN88TB"
+            },
+            {
+                "url": "https://registry-bj.tigerbrokers.net/",
+                "logo": "assets/images/logoss/logo_harbor.png",
+                "title": "Harbor-bj",
+                "owner": "熊星",
+                "desc": "公司Docker仓库"
+            },
+            {
+                "url": "https://registry-qw.tigerbrokers.net/",
+                "logo": "assets/images/logoss/logo_harbor.png",
+                "title": "Harbor-hk",
+                "owner": "熊星",
+                "desc": "公司Docker仓库"
+            },
+            {
+                "url": "https://registry-us.tigerbrokers.net/",
+                "logo": "assets/images/logoss/logo_harbor.png",
+                "title": "Harbor-us",
+                "owner": "熊星",
+                "desc": "公司Docker仓库"
+            }
+        ]
+    },
+    {
+        "name": "部门网站",
         "en_name": "Internal web",
         "icon": "linecons-shop",
         "children": [{
                 "name": "运维部",
                 "en_name": "OPS",
                 "web": [{
-                        "url": "https://cmdb.tigerbrokers.net",
-                        "logo": "assets/images/logoss/logo_ucloud.png",
-                        "title": "Cmdb",
-                        "desc": "公司配置管理数据库 (境内)"
-                    },
-                    {
                         "url": "https://jump-gz.tigerbrokers.net/",
                         "logo": "assets/images/logoss/logo_jump.png",
-                        "title": "Jumpserver",
-                        "desc": "公司服务器权限管理系统 (境内)"
+                        "title": "Jumpserver-cn (old)",
+                        "owner": "王朝阳",
+                        "desc": "跳板机，服务器权限管理系统"
                     },
                     {
                         "url": "https://jump-us.tigerbrokers.net/",
                         "logo": "assets/images/logoss/logo_jump.png",
-                        "title": "Jumpserver",
-                        "desc": "公司服务器权限管理系统 (境外)"
+                        "title": "Jumpserver-us (old)",
+                        "owner": "王朝阳",
+                        "desc": "跳板机，服务器权限管理系统"
                     },
                     {
-                        "url": "https://merico.tigerbrokers.net",
-                        "logo": "assets/images/logoss/logo_simayi.png",
-                        "title": "思码逸",
-                        "desc": "研发团队 效能平台"
+                        "url": "https://jms-cn.tigerbrokers.net/",
+                        "logo": "assets/images/logoss/logo_jump.png",
+                        "title": "Jumpserver-cn",
+                        "owner": "王朝阳",
+                        "desc": "跳板机，服务器权限管理系统"
                     },
                     {
-                        "url": "https://ones.tigerbrokers.net",
-                        "logo": "assets/images/logoss/logo_ones.png",
-                        "title": "Ones",
-                        "desc": "研发团队 项目管理和任务协同工具"
+                        "url": "https://jms-us.tigerbrokers.net/",
+                        "logo": "assets/images/logoss/logo_jump.png",
+                        "title": "Jumpserver-us",
+                        "owner": "王朝阳",
+                        "desc": "跳板机，服务器权限管理系统"
+                    },
+                    {
+                        "url": "https://cmdb.tigerbrokers.net",
+                        "logo": "assets/images/logoss/logo_tiger.png",
+                        "title": "Cmdb-cn",
+                        "owner": "王朝阳",
+                        "desc": "资产中心，运维配置管理数据库"
+                    },
+                    {
+                        "url": "https://cmdb-us.tigerbrokers.net",
+                        "logo": "assets/images/logoss/logo_tiger.png",
+                        "title": "Cmdb-us",
+                        "owner": "王朝阳",
+                        "desc": "资产中心，运维配置管理数据库"
                     },
                     {
                         "url": "https://puck1.tigerbrokers.net/",
                         "logo": "assets/images/logoss/logo_jenkins.png",
+                        "owner": "苏蕊",
                         "title": "Jenkins",
                         "desc": "发布平台 运维nginx"
-                    },
-                    {
-                        "url": "https://puck1.tigerbrokers.net/",
-                        "logo": "assets/images/logoss/logo_nginx.png",
-                        "title": "Nginx",
-                        "desc": "Nginx 配置文件查看"
-                    },
-                    {
-                        "url": "https://git.tigerbrokers.net/",
-                        "logo": "assets/images/logoss/logo_gitlab.png",
-                        "title": "Gitlab",
-                        "desc": "公司代码仓库"
-                    },
-                    {
-                        "url": "http://nexus.tigerbrokers.net/",
-                        "logo": "assets/images/logoss/logo_nexus.png",
-                        "title": "Nexus",
-                        "desc": "公司制品仓库, java、python ..... ",
-                        "doc": "https://tigertech.feishu.cn/wiki/wikcn4WbjE24boqnb9hy7SN88TB"
-                    },
-                    {
-                        "url": "https://registry-qw.tigerbrokers.net/",
-                        "logo": "assets/images/logoss/logo_harbor.png",
-                        "title": "Harbor",
-                        "desc": "公司Docker仓库(荃湾)"
                     }
+
                 ]
             },
             {
@@ -119,73 +431,73 @@
                 }]
             },
             {
-                "name": "券商平台",
-                "en_name": "Omnibus",
-                "web": [{
-                    "url": "https://sec.tigerfintech.com/",
-                    "logo": "assets/images/logoss/logo_ucloud.png",
-                    "title": "Waf",
-                    "desc": "公司配置管理数据库 (境内)"
-                }]
+                "name": "数仓",
+                "en_name": "Data",
+                "web": []
+            },
+            {
+                "name": "基础平台",
+                "en_name": "Infra",
+                "web": []
             },
             {
                 "name": "行情",
                 "en_name": "Quote",
                 "web": []
+            },
+            {
+                "name": "券商平台",
+                "en_name": "Omnibus",
+                "web": []
+            },
+            {
+                "name": "用户认证",
+                "en_name": "Ams",
+                "web": []
+            },
+            {
+                "name": "社区",
+                "en_name": "Comm",
+                "web": []
+            },
+            {
+                "name": "应用平台",
+                "en_name": "Business",
+                "web": []
+            },
+            {
+                "name": "环球交易",
+                "en_name": "Trade",
+                "web": []
+            },
+            {
+                "name": "投资顾问",
+                "en_name": "Ria",
+                "web": [{
+                    "url": "https://www.upfintecham.com/",
+                    "logo": "assets/images/logoss/logo_tiger.png",
+                    "title": "ria官网",
+                    "desc": "投资顾问系统"
+                }]
+            },
+            {
+                "name": "期权托管",
+                "en_name": "Esop",
+                "web": [{
+                        "url": "https://www.tigeresop.com/",
+                        "logo": "assets/images/logoss/logo_tiger.png",
+                        "title": "esop官网",
+                        "desc": "期权托管系统"
+                    },
+                    {
+                        "url": "https://www.uponeshare.com/",
+                        "logo": "assets/images/logoss/logo_tiger.png",
+                        "title": "upone官网",
+                        "desc": "新 期权托管系统"
+                    }
+                ]
             }
 
         ]
-    },
-    {
-        "name": "外部网站",
-        "en_name": "External sites",
-        "icon": "linecons-globe",
-        "children": [{
-            "name": "图形创意",
-            "en_name": "Creative Graphics",
-            "web": [{
-                    "url": "https://www.adobe.com/cn/products/photoshop.html",
-                    "logo": "assets/images/logoss/logo_ucloud.png",
-                    "title": "photoshop",
-                    "desc": "Photoshop不需要解释"
-                },
-                {
-                    "url": "https://affinity.serif.com/",
-                    "logo": "assets/images/logoss/logo_ucloud.png",
-                    "title": "Affinity Designer",
-                    "desc": "专业创意软件"
-                },
-                {
-                    "url": "https://www.adobe.com/cn/products/illustrator/",
-                    "logo": "assets/images/logoss/logo_ucloud.png",
-                    "title": "Illustrator",
-                    "desc": "矢量图形和插图。"
-                },
-                {
-                    "url": "http://www.adobe.com/cn/products/indesign.html",
-                    "logo": "assets/images/logoss/logo_ucloud.png",
-                    "title": "indesign",
-                    "desc": "页面设计、布局和出版。"
-                },
-                {
-                    "url": "https://www.maxon.net/en/products/cinema-4d/overview/",
-                    "logo": "assets/images/logoss/logo_ucloud.png",
-                    "title": "cinema-4d",
-                    "desc": "Cinema 4D is the perfect package for all 3D artists who want to achieve breathtaking results fast and hassle-free."
-                },
-                {
-                    "url": "https://www.autodesk.com/products/3ds-max/overview",
-                    "logo": "assets/images/logoss/logo_ucloud.png",
-                    "title": "3ds-max",
-                    "desc": "3D modeling, animation, and rendering software"
-                },
-                {
-                    "url": "https://www.blender.org/",
-                    "logo": "assets/images/logoss/logo_ucloud.png",
-                    "title": "Blender",
-                    "desc": "Blender is the free and open source 3D creation suite."
-                }
-            ]
-        }]
     }
 ]

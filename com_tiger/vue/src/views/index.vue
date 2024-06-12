@@ -10,7 +10,7 @@
             </a>
             <a href="#" class="logo-collapsed">
               <img
-                src="../assets/images/logo-collapsed@2x.png"
+                src="../assets/images/tiger_logo_collapased.png"
                 width="40"
                 alt=""
               />
@@ -64,6 +64,9 @@
         <ul class="user-info-menu left-links list-inline list-unstyled">
           <li class="hidden-sm hidden-xs">
             <a href="#" data-toggle="sidebar"><i class="fa-bars"></i></a>
+          </li>
+          <li class="hidden-sm hidden-xs">
+            <p>本站提供集团内部常用网站导航，便于大家查找，有增加or修改需求可联系滕训涛</p>
           </li>
           <!-- <li class="dropdown hover-line language-switcher">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">

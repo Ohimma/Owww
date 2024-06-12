@@ -2,7 +2,7 @@
   <div>
     <h4 class="text-gray" v-if="title">
       <i class="linecons-tag" :id="transName(item)"></i>
-      {{title}} -- {{transName(item)}}
+      {{title}} - {{transName(item)}}
     </h4>
     <h4 class="text-gray" v-else>
       <i class="linecons-tag" :id="transName(item)"></i>
@@ -29,7 +29,12 @@
                 <a href="#" class="xe-user-name overflowClip_1">
                   <strong>{{web.title}}</strong>
                 </a>
-                <p class="overflowClip_2">{{web.desc}}</p>
+                <p class="overflowClip_2" v-if="web.owner">
+                  {{web.desc}}  ({{web.owner}})
+                </p> 
+                 <p class="overflowClip_2" v-else>
+                  {{web.desc}}  
+                </p> 
               </div>
           </div>
         </div>
