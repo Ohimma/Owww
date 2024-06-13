@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# git remote add github git@github.com:Ohimma/Owww.git
-# git remote add gitee  git@gitee.com:ohimma/owww.git
-
 mes=$1
 
 if [[ -z $1 ]];then
